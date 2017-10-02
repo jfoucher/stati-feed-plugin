@@ -1,0 +1,22 @@
+{
+    "name": "stati/feed",
+    "description": "A Atom feed plugin for Stati",
+    "authors": [
+        {
+            "name": "jfoucher",
+            "email": "jfoucher@6px.eu"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Stati\\Plugin\\Feed\\": "src/", "Stati\\Plugin\\Feed\\Tests\\": "tests/"}
+    },
+    "require": {
+        "php": "^7.0"
+    },
+    "suggest": {
+        "stati/stati": "An extensible, jekyll-compatible PHP static site generator"
+    },
+    "bin": ["build/feed.phar"],
+    "license": "MIT",
+    "homepage": "https://stati.jfoucher.com"
+}
