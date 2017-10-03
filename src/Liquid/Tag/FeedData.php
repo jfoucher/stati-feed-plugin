@@ -9,6 +9,6 @@ class FeedData extends AbstractTag
 {
     public function render(Context $context)
     {
-        return 'feed_data';
+        return '<feed_data/>';
     }
 }
